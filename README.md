@@ -25,6 +25,8 @@ Import the element in your polymer project and attach it:
 ```
 -->
 ```html
+<script src="../webcomponentsjs/webcomponents-lite.js"></script>
+
 <adamanitum-editor id="editor" body-text="This is a text"></adamantium-editor>
 ```
 
