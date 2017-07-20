@@ -1,0 +1,24 @@
+{
+  "name": "adamantium-editor",
+  "homepage": "https://github.com/deblanco/adamantium-editor",
+  "authors": [
+    "Daniel Blanco Parla <dblancoparla@gmail.com>"
+  ],
+  "description": "Polymer element - WYSIWYG online content editor Edit",
+  "main": "Add topics",
+  "keywords": [
+    "polymer",
+    "element",
+    "editor",
+    "wysiwyg",
+    "text"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
