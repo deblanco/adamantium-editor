@@ -1,4 +1,4 @@
-# adamantium-element
+# adamantium-element <span style="float: right">[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/deblanco/adamantium-editor)</span>
 
 Polymer (1) element that displays a WYSIWYG text editor.
 

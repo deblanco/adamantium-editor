@@ -171,7 +171,7 @@
 
         this.editorBody = this.$.editorBody;
         if (this.bodyText) this.editorBody.innerText = this.bodyText;
-        this.bodyText = this.editorBody.innerText;
+        this.bodyText = this.editorBody.innerHTML;
       },
 
       _actionPressed(event) {
@@ -225,7 +225,7 @@
       },
 
       _editorBodyChanged(event) {
-        this.set('bodyText', this.editorBody.innerText);
+        this.set('bodyText', this.editorBody.innerHTML);
       },
 
       _bodyWordCount() {
@@ -233,7 +233,7 @@
       },
 
       get() {
-        return this.bodyText;
+        return this.editorBody.innerHTML;
       }
 
     });
