@@ -25,6 +25,7 @@
     "polymer": "Polymer/polymer#^1.9.3"
   },
   "devDependencies": {
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24",
+    "iron-component-page": "PolymerElements/iron-component-page#^3.0.1"
   }
 }
