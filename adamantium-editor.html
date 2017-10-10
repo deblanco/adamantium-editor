@@ -197,6 +197,8 @@
             document.execCommand(action, false, null);
             break;
         }
+
+        this.editorBody.focus();
       },
 
       _inputImageDialog() {
@@ -234,8 +236,11 @@
 
       get() {
         return this.editorBody.innerHTML;
-      }
+      },
 
+      reset() {
+        this.set('editorBody.innerText', '');
+      }
     });
   </script>
 </dom-module>
